@@ -1,8 +1,100 @@
-﻿@{
+﻿Compartir
+
+
+Tú dijiste:
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<style>
+    body {
+        background-color: #ffe6f0;
+        font-family: 'Arial';
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+
+    .text-center {
+        text-align: center;
+        padding: 20px;
+    }
+
+    h1 {
+        color: #ff99cc;
+        font-size: 3rem;
+        margin-bottom: 20px;
+        font-family: 'Lucida Sans';
+    }
+
+    p, p1, p2 {
+        font-size: 1.2rem;
+        color: #ff6699;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        padding: 0 20px;
+    }
+
+    p1, p2 {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .text-center p2 {
+        font-style: italic;
+        color: #ff3385;
+    }
+
+
+
+    .text-center {
+        color: #ff66a3;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="text-center">
+        <h1 class="display-4">Querida Panelita</h1>
+
+        <main>
+            <div class="container-letter">
+                <div class="cover"></div>
+                <span class="heart">♥</span>
+                <p class="paper" id="mainMessage" style="font-size: 0.9rem;">
+                    Hola bola, ¿cómo estás? Espero que cuando tengas esto en tus manos sepas que me esforcé mucho, mi amor.
+                    Estoy aprendiendo esto para poderte dar un regalo bonito, así como tú haces tus videos que son geniales.
+                    Yo quería hacerte una aplicación web.
+                    Mi finalidad con este proyecto es que pueda subirlo al internet y te pueda mostrar cómo son las matemáticas.
+                    Cada vez que resuelvas algo, vas a tener un premio, mi amor, ¡sí, un premio jaja!
+                </p>
+                <div class="letter"></div>
+            </div>
+            <div class="options">
+                <button id="open">Abrir</button>
+                <button id="close">Cerrar</button> <!-- Corregido aquí -->
+            </div>
+            
+            <p>  
+              Psdt: Esperemos que todo me salga bien.
+            </p>
+
+           
+
+
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+</html>
+
+
