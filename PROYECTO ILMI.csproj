@@ -7,4 +7,9 @@
     <RootNamespace>PROYECTO_ILMI</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\imagenes\ILMI_image3.jpeg" />
+    <Content Remove="wwwroot\imagenes\ILMI_image4.jpeg" />
+  </ItemGroup>
+
 </Project>
